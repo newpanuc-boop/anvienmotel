@@ -1,0 +1,25 @@
+﻿Số phòng,Tầng,Mã hạng,Hạng phòng,Hướng nhìn,Thông với phòng,Tiếp cận xe lăn,Ghi chú
+101,1,STD,Phòng Tiêu chuẩn Twin,Sân trong,102,Không,
+102,1,STD,Phòng Tiêu chuẩn Twin,Sân trong,101,Không,
+103,1,DLX,Phòng Deluxe King,Sân trong,,Không,
+104,1,DLX,Phòng Deluxe King,Sân trong,,Không,
+105,1,DLX,Phòng Deluxe King,Sân trong,,Có,"Gần thang máy, cửa rộng"
+106,1,BAL,Phòng Deluxe Ban công,Phố cổ,,Không,
+107,1,STD,Phòng Tiêu chuẩn Twin,Sân trong,,Không,
+201,2,STD,Phòng Tiêu chuẩn Twin,Sân trong,202,Không,
+202,2,STD,Phòng Tiêu chuẩn Twin,Sân trong,201,Không,
+203,2,DLX,Phòng Deluxe King,Sân trong,,Không,
+204,2,DLX,Phòng Deluxe King,Sân trong,,Không,
+205,2,FAM,Phòng Gia đình,Vườn,,Không,
+206,2,FAM,Phòng Gia đình,Vườn,,Không,Bảo trì điều hòa
+301,3,DLX,Phòng Deluxe King,Sân trong,,Không,
+302,3,DLX,Phòng Deluxe King,Sân trong,,Không,
+303,3,BAL,Phòng Deluxe Ban công,Phố cổ,304,Không,
+304,3,BAL,Phòng Deluxe Ban công,Phố cổ,303,Không,
+305,3,FAM,Phòng Gia đình,Vườn,,Không,
+306,3,DLX,Phòng Deluxe King,Sân trong,,Có,Gần thang máy
+401,4,GSU,Suite Hướng vườn,Sân vườn riêng,,Không,
+402,4,GSU,Suite Hướng vườn,Sân vườn riêng,,Không,
+403,4,HSU,Suite Heritage,Hồ bơi,,Không,
+404,4,HSU,Suite Heritage,Hồ bơi,,Không,
+405,4,GSU,Suite Hướng vườn,Sân vườn riêng,,Không,

@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,650&family=Figtree:ital,wght@0,400;0,500;0,600;0,650;1,400&display=swap");
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces", ui-serif, Georgia, "Times New Roman", serif;
+  --font-mono: ui-monospace, "IBM Plex Mono", Menlo, Consolas, monospace;
+
+  --color-background: #f3eee6;
+  --color-foreground: #1c1916;
+  --color-card: #faf7f2;
+  --color-card-foreground: #1c1916;
+  --color-popover: #faf7f2;
+  --color-popover-foreground: #1c1916;
+  --color-primary: #1e4d45;
+  --color-primary-foreground: #f4efe6;
+  --color-secondary: #e8e1d4;
+  --color-secondary-foreground: #1c1916;
+  --color-muted: #ebe4d8;
+  --color-muted-foreground: #6b645b;
+  --color-accent: #e4dccf;
+  --color-accent-foreground: #1c1916;
+  --color-destructive: #8f2d2d;
+  --color-destructive-foreground: #faf7f2;
+  --color-border: #d8d0c2;
+  --color-input: #d8d0c2;
+  --color-ring: #1e4d45;
+  --color-ink: #1c1916;
+  --color-clay: #8a6a4f;
+  --color-status-available: #1e4d45;
+  --color-status-occupied: #3d3229;
+  --color-status-cleaning: #8a7a5c;
+  --color-status-maintenance: #8f2d2d;
+  --color-status-confirmed: #2c5f56;
+  --color-status-checked-in: #3d3229;
+  --color-status-checked-out: #6b645b;
+  --color-status-cancelled: #9a9288;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius: 0.75rem;
+
+  --shadow-border:
+    0px 0px 0px 1px rgba(28, 25, 22, 0.06),
+    0px 1px 2px -1px rgba(28, 25, 22, 0.06),
+    0px 2px 4px 0px rgba(28, 25, 22, 0.04);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  * { border-color: var(--color-border); }
+  html, body, #app {
+    min-height: 100%;
+    background: var(--color-background);
+    color: var(--color-foreground);
+  }
+  body { font-family: var(--font-sans); line-height: 1.5; }
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+    letter-spacing: -0.03em;
+    line-height: 1.15;
+  }
+  p { text-wrap: pretty; }
+  button:not(:disabled), [role="button"]:not(:disabled) { cursor: pointer; }
+  img { outline: 1px solid rgba(28, 25, 22, 0.1); outline-offset: -1px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.font-display { font-family: var(--font-display); }
+.shadow-border { box-shadow: var(--shadow-border); }
